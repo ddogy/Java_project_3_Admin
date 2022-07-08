@@ -21,8 +21,11 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<context:component-scan base-package="org.acdemy.controller" />
+	<context:component-scan base-package="org.academy.controller" />
 	
+	
+	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.support.StandardServletMultipartResolver">
+	</beans:bean>
 	
 	
 </beans:beans>
