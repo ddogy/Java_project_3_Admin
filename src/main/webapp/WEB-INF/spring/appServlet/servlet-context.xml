@@ -27,7 +27,7 @@
 	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.support.StandardServletMultipartResolver">
 	</beans:bean>
 	
-	<!-- 인터셉터 적용 -->
+	<!-- 인터셉터 적용 !!!-->
 	<interceptors>
         <interceptor>
             <mapping path="/member/login.do"></mapping>
